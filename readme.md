@@ -1,35 +1,21 @@
-<h1>Projeto Analisador Léxico (Compiladores)</h1>
+<h1>Projeto Analisador Sintático de Expressões (Compiladores)</h1>
 <hr/>
-<p>Objetivo: Criar um analisador léxico para permitir o reconhecimento de variáveis, palavras reservadas e números, de acordo com a entrada fornecida</p>
+<p>Objetivo: Criar um analisador sintático para permitir o reconhecimento de expressões algébricas utilizando números de 0 a 9 e sinais: + - * / bem como ().</p>
 
  <h2>Exemplo de Entrada:</h2>
-<code>
-    Digite a entrada: LET A:=10 : IF A==10 THEN B=B+A : END % A=A+A : B=20
-</code>
+ 
+```
+    Digite a entrada: 5+(2*(2+1*5)*3)+5
+```
 
 <h2>Saída Correspondente:</h2>
 
 ```
- P(7) V(0) := N(10) : P(0) V(0) ==N(10) P(4) V(1) =V(1) +V(0) : P(3)
-
-Tabela de Variaveis:
-    0....A
-    1....B
-
-Tabela de Palavras:
-    0....IF
-    1....ELSE
-    2....GOTO
-    3....END
-    4....THEN
-    5....READ
-    6....PRINT
-    7....LET
-    8....OF
+    Saida: Aceita! 
 ```
 
 <br/>
-<p>Colaboradores:<br>
+<h3>Colaboradores:<h3>
     <ul>
         <li>João Souza (<a href=http://github.com/Jvictor97>@Jvictor97</a>)</li>
         <li>Marcus More (<a href=http://github.com/MarcusMore>@MarcusMore</a>)</li>

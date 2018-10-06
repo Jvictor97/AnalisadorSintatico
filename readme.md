@@ -15,7 +15,7 @@
 ```
 
 <br/>
-<h3>Colaboradores:<h3>
+<h3>Colaboradores:</h3>
 <p>
     <ul>
         <li>João Souza (<a href=http://github.com/Jvictor97>@Jvictor97</a>)</li>
